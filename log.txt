@@ -1,0 +1,12 @@
+[INFO] Flask server started at http://127.0.0.1:5000
+[INFO] User visited home page (GET)
+[INFO] User submitted form (POST)
+[INPUT] Side = BUY, Quantity = 0.01
+[OUTPUT] Order Placed Successfully:
+         {'symbol': 'BTCUSDT', 'side': 'BUY', 'status': 'FILLED'}
+
+[INFO] User submitted form (POST)
+[INPUT] Side = SELL, Quantity = 0.005
+[ERROR] BinanceAPIException: Invalid API key or insufficient balance
+
+[INFO] Flask server shut down
