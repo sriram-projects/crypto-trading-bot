@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypto Bot</title>
+</head>
+<body>
+  <h2>Simple Binance Trading Bot</h2>
+  <form method="POST">
+    <label>Order Type:</label>
+    <select name="side">
+      <option value="BUY">BUY</option>
+      <option value="SELL">SELL</option>
+    </select><br><br>
+
+    <label>Quantity:</label>
+    <input type="text" name="quantity" required><br><br>
+
+    <input type="submit" value="Place Order">
+  </form>
+
+  {% if message %}
+    <h3>{{ message }}</h3>
+    <pre>{{ result }}</pre>
+  {% endif %}
+</body>
+</html>
